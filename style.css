@@ -4,7 +4,7 @@ body {
     font-family: 'Ubuntu', sans-serif;
     background-color: rgb(146, 125, 136);
     color: #f9ea66ab;
-    
+
 }
 
 h1, footer {
@@ -34,5 +34,5 @@ a:hover {
 }
 
 p {
-    margin: 
-}
+    margin: 20px;
+} 
