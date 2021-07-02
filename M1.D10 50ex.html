@@ -20,13 +20,13 @@
         11) Give a maximum width to the body and center it in the page
         12) Set every h1 to be centered
         13) Change the color of each link in the page
-        14) Create a class with a border
+        nn 14) Create a class with a border
         15) Set table to have rounded corners
         16) Add margin between every paragraph
-        17) Create a class which change font size and boldness
-        18) Create a class to hide a content
+        nn 17) Create a class which change font size and boldness
+        nn 18) Create a class to hide a content                        
         19) Add a green border to each td
-        20) Add a dotted red border to each tr (note: tr does not accept a border property ;-) ) -->
+        nn 20) Add a dotted red border to each tr (note: tr does not accept a border property ;-) ) -->
 
     <!--
         JS EXERCISES
@@ -44,17 +44,17 @@
 
     <!-- 
         DOM 
-
-        31) Get element with ID "container" from the page
-        32) Get every "td" from the page
-        33) Create a cycle that prints the text inside every td of the page
-        34) Write a function to change the heading of the page
-        35) Write a function to add an extra row to the table
-        36) Write a function to add the class "test" to each row in the table
-        37) Write a function to add a red background to every link in the page
-        38) Console log "Page loaded" when the page is correctly loaded
-        39) Write a function to add new items to a UL
-        40) Write a function to empty a list -->
+        31) Get element with ID "container" from the page                       
+        32) Get every "td" from the page                                        
+        33) Create a cycle that prints the text inside every td of the page     
+        34) Write a function to change the heading of the page                  
+        35) Write a function to add an extra row to the table                   
+        36) Write a function to add the class "test" to each row in the table   
+        37) Write a function to add a red background to every link in the page  
+        38) Console log "Page loaded" when the page is correctly loaded         
+        39) Write a function to add new items to a UL                           
+        40) Write a function to empty a list                                    
+    --> 
 
     <!--
         EXTRA 
@@ -73,13 +73,16 @@
     <head>
         <title>M1-D10  Exercises</title>
         <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
     </head>
 
     <body>
         <header>
             <h1>This is my heading</h1>
         </header>
-        <main>
+        <main id="container">
             <section> <!--list section -->
                 <ol>
                     <li>list item 1</li>
@@ -103,32 +106,36 @@
 
                     <tr>
                         <td>Item 1</td>
-                        <td><a href=""><img src="" alt=""></a></td>
-                        <td>Item 2</td>
+                        <td><img src="https://popcorntv.it/uploads/files/medium/14998771048286-PI_my_little_pony_princess_Twilight_sparkle.jpg"
+                            alt="Princess Twilight Sparkle"></td>
+                        <td><a href="https://mlp.fandom.com/wiki/Twilight_Sparkle" target="_blank">Twilight Sparkle</a></td>
                         <td rowspan="2">Item 3</td>
                         <td>Item 4</td>
                     </tr>
 
                     <tr>
                         <<td>Item 1</td>
-                        <td><a href=""><img src="" alt=""></a></td>
-                        <td>Item 2</td>
+                        <td><a href=""><img src="https://popcorntv.it/uploads/files/medium/14998775558655-PI_my_little_pony_Flutteshy.jpg"
+                            alt="Fluttershy"></a></td>
+                        <td><a href="https://mlp.fandom.com/wiki/Fluttershy" target="_blank">Fluttershy</a></td>
+                        <td>Item 4</td>
+                        
+                    </tr>
+
+                    <tr>
+                        <td>Item 1</td>
+                        <td><a href=""><img src="https://popcorntv.it/uploads/files/medium/14998771439891-PI_my_little_pony_Applejack.jpg" 
+                            alt="Apple Jack"></a></td>
+                        <td><a href="https://mlp.fandom.com/wiki/Applejack" target="_blank">Apple Jack</a></td>
                         <td>Item 3</td>
                         <td>Item 4</td>
                     </tr>
 
                     <tr>
                         <td>Item 1</td>
-                        <td><a href=""><img src="" alt=""></a></td>
-                        <td>Item 2</td>
-                        <td>Item 3</td>
-                        <td>Item 4</td>
-                    </tr>
-
-                    <tr>
-                        <td>Item 1</td>
-                        <td><a href=""><img src="" alt=""></a></td>
-                        <td>Item 2</td>
+                        <td><a href=""><img src="https://popcorntv.it/uploads/files/medium/14998784462836-PI_my_little_pony_Rainbow_Dash.jpg"
+                            alt="Rainbow Dash"></a></td>
+                        <td><a href="https://mlp.fandom.com/wiki/Rainbow_Dash" target="_blank">Rainbow Dash</a></td>
                         <td>Item 3</td>
                         <td>Item 4</td>
                     </tr>
@@ -139,6 +146,8 @@
 
             <section> <!--p and ul section -->
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga sed quia distinctio itaque tempore magni! Iste ipsam earum necessitatibus voluptas quo ratione debitis, nobis temporibus recusandae eveniet explicabo sint est.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum reiciendis nihil ea error unde fugit. Qui, veniam? Ipsam natus maxime similique tenetur eligendi? Animi quos ipsa eveniet minus aperiam voluptatem.</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci atque quibusdam sint voluptatibus iste officiis totam maiores fugit quas, ipsam iusto nesciunt aperiam quasi quo! Enim, soluta nemo? Dolorum, voluptatibus!</p>
                 <ul>
                     <li>unordered list item 1</li>
                     <li>unordered list item 2</li>

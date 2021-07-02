@@ -1,0 +1,38 @@
+body {
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: rgb(146, 125, 136);
+    color: #f9ea66ab;
+    
+}
+
+h1, footer {
+    text-align: center;
+}
+
+table {
+    width: 80%;
+    text-align: center;
+    border-radius: 8px;
+}
+
+td {
+    border: 3px solid #dc78598f;
+}
+
+table, tr {
+    border: 1px solid black;
+}
+
+img {
+    height: 100px;
+}
+
+a:hover {
+    color:rgb(46, 29, 38)
+}
+
+p {
+    margin: 
+}
