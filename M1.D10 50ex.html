@@ -43,7 +43,7 @@
         DOM 
             31) Get element with ID "container" from the page                       
             32) Get every "td" from the page                                        
-        33) Create a cycle that prints the text inside every td of the page     
+        33) Create a loop that prints the text inside every td of the page     
             34) Write a function to change the heading of the page                  
             35) Write a function to add an extra row to the table                   
         36) Write a function to add the class "test" to each row in the table   
@@ -78,6 +78,9 @@
         <header>
             <h1>This is my heading</h1>
         </header>
+
+        <hr>
+
         <main id="container">
             <section> <!--list section -->
                 <ol>
@@ -91,7 +94,7 @@
 
             <section>    <!--table section-->
                 <table id="pony-table">
-
+                    
                     <tr>
                         <th>Title Data 1</th>
                         <th>Title Data 2</th>
@@ -138,7 +141,6 @@
                 </table>
             </section>
 
-            <hr>
 
             <section> <!--p and ul section -->
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga sed quia distinctio itaque tempore magni! Iste ipsam earum necessitatibus voluptas quo ratione debitis, nobis temporibus recusandae eveniet explicabo sint est.</p>
@@ -151,7 +153,8 @@
                     <li>unordered list item 4</li>
                     <li>unordered list item 5</li>
                 </ul>
-                <button onclick="addListItem()">Click to add</button>
+                <button onclick="addListItem(event)">Click to add</button>
+                <button onclick="emptyList(event)">Click to remove BOTH lists</button>
             </section>
         </main>
 
