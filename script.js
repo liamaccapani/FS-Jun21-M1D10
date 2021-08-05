@@ -82,7 +82,7 @@ const addListItem = function(){
     //const ul = document.getElementsByTagName('ul')
     const newLi = document.createElement('li')
     newLi.innerText = 'new unordered list item'
-    ul[0].appendChild(newLi)
+    uls[0].appendChild(newLi)
 }
 
 // 40) Write a function to empty a list ✅
@@ -90,10 +90,6 @@ const emptyList = function() {
     uls[0].innerHTML = '' 
     ols[0].innerHTML = ''
 }
-
-
-
-
 
 
 
@@ -108,76 +104,3 @@ const emptyList = function() {
 // 48) Add a pink border to a cell when the mouse is over 
 // 49) Write a function to add a table with 4 rows and 3 columns programmatically
 // 50) Write a function to remove the table from the page
-
-
-// ----------------- JAVASCRIPT -----------------
-// 21) Given variable x = "John" and y = "Doe", write on the console log "John <> Doe" ✅
-let x = "John"
-let y = "Doe"
-
-let joinedStrings = x + "<>" + y
-console.log(joinedStrings)
-
-// 22) Create an object with properties such name, surname, email ✅
-let person = {
-    name: 'Lia',
-    surname: 'Maccapani',
-    email: 'lolojhdj@haga.com'
-}
-
-
-// 23) Delete Email from the previously created object ✅
-delete person.email
-console.log(person)
-
-// 24) Create an array with 10 strings in it
-// let arrayOfStrings = []
-// for (let i=0; i<=9; i++){
-// }
-
-
-// 25) Print in the console every string in the previous array
-
-
-// 26) Create an array with 100 random numbers in it ✅
-let arrayOfRandom = []
-for(i=0; i<100; i++){
-    let randomNumber = Math.floor(Math.random() * 100) + 1
-    arrayOfRandom.push(randomNumber)
-}
-console.log(arrayOfRandom, arrayOfRandom.length)
-
-// while(arrayOfRandom.length === 100){
-//   let randomNumber = Math.floor(Math.random() * 100) + 1
-//   arrayOfRandom.push(randomNumber)
-// }
-
-
-// 27) Write a function to get the MAX and the MIN from the previously created array
-// let minMax = function(k, m){
-//     let k = Math.min(arrayOfRandom)
-//     let m= Math.max(arrayOfRandom)
-//     return k, m
-// }
-// console.log(minMax())
-
-
-//28) Create an array of arrays, in which every array has 10 random numbers
-// let arrayParent = []
-
-// let arrayFirstChild = function(){
-//     for(i=0; i<11; i++){
-//         let randomNumber = Math.floor(Math.random() * 100) + 1
-//         arrayFirstChild.push(randomNumber)
-//     }
-
-// let arraySeconChild = function(){
-//     for(i=0; i<11; i++){
-//         let randomNumber = Math.floor(Math.random() * 100) + 1
-//         arrayFirstChild.push(randomNumber)
-//     }
-
-
-// 29) Create a function that gets 2 arrays and returns the longest one
-
-// 30) Create a function that gets 2 arrays of numbers and returns the one with the higher sum of values
